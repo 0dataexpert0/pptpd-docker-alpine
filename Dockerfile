@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+LABEL maintainer="0dataexpert0@gmail.com"
+
 RUN apk --update --no-cache add pptpd ppp iptables && \
     rm -rf /var/cache/apk/* && \
     echo 'option /etc/ppp/pptpd-options' > /etc/pptpd.conf && \
