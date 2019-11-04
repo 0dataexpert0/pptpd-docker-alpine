@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 
 RUN apk --update --no-cache add pptpd ppp iptables && \
     rm -rf /var/cache/apk/* && \
