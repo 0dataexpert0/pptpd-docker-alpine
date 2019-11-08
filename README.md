@@ -3,7 +3,7 @@ Minimal docker Alpine image with PPTPD VPN.
 
 ### Usage
 ```
-https://github.com/0dataexpert0/pptpd-docker-alpine.git
+git clone https://github.com/0dataexpert0/pptpd-docker-alpine.git
 cd pptpd-docker-alpine
 docker-compose up -d
 ```
