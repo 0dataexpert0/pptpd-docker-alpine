@@ -17,7 +17,7 @@ docker run --name pptpd -d --restart=always   --publish 1723:1723   \
 --volume ./chap-secrets:/etc/ppp/chap-secrets   \
 paste_here_docker_image_id
 ```
-When accessing the vpn, pptpf user will be ```x```, and password will be ```x```
+When accessing the vpn, pptp user will be ```x```, and password will be ```x```
 You can change it in file "chap-secrets", after restart container.
 
 License
