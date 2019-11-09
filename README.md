@@ -9,7 +9,7 @@ docker-compose up -d
 ```
 or with Docker build
 ```
-https://github.com/0dataexpert0/pptpd-docker-alpine.git
+git clone https://github.com/0dataexpert0/pptpd-docker-alpine.git
 cd pptpd-docker-alpine
 docker build .
 docker images
